@@ -69,13 +69,14 @@ const CategoriesMain = () => {
             </button>
           </div>
           <button
-            className="px-4 py-2 text-white bg-green-600 rounded"
+            className="px-4 py-2 text-white transition duration-500 bg-green-600 rounded hover:bg-green-700"
             onClick={handleBuyNow}
           >
             BUY NOW
           </button>
+
           <button
-            className="px-4 py-2 ml-2 text-black bg-gray-300 rounded"
+            className="px-4 py-2 ml-2 text-black transition duration-500 bg-gray-300 rounded hover:bg-gray-400"
             onClick={handleAddToCart}
           >
             ADD TO CART
